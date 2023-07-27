@@ -1,0 +1,63 @@
+.write {
+  margin-bottom: 10px;
+  padding: 0;
+  width: 460px;
+  height: 40px;
+  font-size: 24px;
+}
+button {
+  width: 40px;
+  height: 40px;
+}
+.switch {
+  width: auto;
+  height: 40px;
+}
+
+.keyboard {
+  width: 460px;
+  height: 230px;
+  border: solid 1px black;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.active {
+  display: none;
+}
+.number {
+  display: flex;
+  gap: 5px;
+}
+
+.row1 {
+  display: flex;
+  gap: 5px;
+}
+.row2 {
+  display: flex;
+  gap: 5px;
+}
+.row3 {
+  display: flex;
+  gap: 5px;
+}
+.row4 {
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+}
+.space {
+  width: 200px;
+}
+.big {
+  text-transform: uppercase;
+}
